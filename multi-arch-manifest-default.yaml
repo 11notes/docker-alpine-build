@@ -1,0 +1,11 @@
+image: 11notes/alpine-build:default
+manifests:
+  - image: 11notes/alpine-build:amd64-default
+    platform:
+      architecture: amd64
+      os: linux
+  - image: 11notes/alpine-build:arm64v8-default
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
