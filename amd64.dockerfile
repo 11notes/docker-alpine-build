@@ -21,4 +21,5 @@
       git;
 
   RUN set -ex; \
+    mkdir -p /.build; \
     mkdir -p /.src;
