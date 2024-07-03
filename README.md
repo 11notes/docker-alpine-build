@@ -1,7 +1,7 @@
 ![Banner](https://github.com/11notes/defaults/blob/main/static/img/banner.png?raw=true)
 
 # 🏔️ Alpine Linux
-![size](https://img.shields.io/docker/image-size/11notes/alpine-build/stable?color=0eb305) ![version](https://img.shields.io/docker/v/11notes/alpine-build/stable?color=eb7a09) ![pulls](https://img.shields.io/docker/pulls/11notes/alpine-build?color=2b75d6) ![activity](https://img.shields.io/github/commit-activity/m/11notes/docker-alpine-build?color=c91cb8) ![commit-last](https://img.shields.io/github/last-commit/11notes/docker-alpine-build?color=c91cb8) ![stars](https://img.shields.io/docker/stars/11notes/alpine-build?color=e6a50e)
+![size](https://img.shields.io/docker/image-size/11notes/alpine-build/stable?color=0eb305) ![version](https://img.shields.io/docker/v/11notes/alpine-build/stable?color=eb7a09) ![pulls](https://img.shields.io/docker/pulls/11notes/alpine-build?color=2b75d6) ![stars](https://img.shields.io/docker/stars/11notes/alpine-build?color=e6a50e) [<img src="https://img.shields.io/badge/github-11notes-blue?logo=github">](https://github.com/11notes)
 
 # SYNOPSIS
 What can I do with this? This is a build image that contains most if not all default Alpine build tools to build custom binaries.
@@ -28,5 +28,5 @@ What can I do with this? This is a build image that contains most if not all def
 * Use Let’s Encrypt certificates to protect your SSL endpoints
 
 # ElevenNotes<sup>™️</sup>
-This image is provided to you at your own risk. Always make backups before updating an image to a new version. Check the changelog for breaking changes.
+This image is provided to you at your own risk. Always make backups before updating an image to a new version. Check the changelog for breaking changes. You can find all my repositories on [github](https://github.com/11notes).
     
