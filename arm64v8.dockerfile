@@ -2,7 +2,7 @@
   FROM multiarch/qemu-user-static:x86_64-aarch64 as qemu
 
 # :: Build
-  FROM 11notes/alpine:arm64v8-stable as build
+  FROM --platform=linux/arm64 11notes/alpine:arm64v8-stable as build
   COPY --from=qemu /usr/bin/qemu-aarch64-static /usr/bin
 
   USER root
@@ -26,4 +26,4 @@
 
   RUN set -ex; \
     mkdir -p /.build; \
-    mkdir -p /.src;
+    mkdir -p /.release;

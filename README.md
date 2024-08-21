@@ -23,7 +23,6 @@ What can I do with this? This is a build image that contains most if not all def
 * [alpine](https://alpinelinux.org)
 
 # TIPS
-* Allow non-root ports < 1024 via `echo "net.ipv4.ip_unprivileged_port_start={n}" > /etc/sysctl.d/ports.conf`
 * Use a reverse proxy like Traefik, Nginx to terminate TLS with a valid certificate
 * Use Let’s Encrypt certificates to protect your SSL endpoints
 
